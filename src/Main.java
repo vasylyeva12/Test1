@@ -1,3 +1,6 @@
+import LessonTask2.Cat;
+
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -35,6 +38,17 @@ public class Main {
 //        String value_1 = "13";
 //        String value_2 = "23";
 //        System.out.println(Integer.parseInt(value_1) + Integer.parseInt(value_2));
+
+        Cat myCat = new Cat("Sima", 5, 7.5);
+        System.out.println(myCat);
+
+        Cat myCat2 = new Cat("Thomas", 8, 5.5);
+        System.out.println(myCat2);
+
+        myCat.className(); //вызываем метод объекта
+
+
+
 
     }
 }
